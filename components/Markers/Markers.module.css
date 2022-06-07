@@ -1,0 +1,28 @@
+.markers {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.markers .marker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.markers .marker .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 20;
+  height: 20;
+  border-radius: 10;
+}

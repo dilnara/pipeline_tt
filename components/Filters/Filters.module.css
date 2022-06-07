@@ -1,0 +1,30 @@
+.filters {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 90px;
+}
+
+.filters .dropdown:not(:first-child) {
+  margin-left: 30px;
+}
+
+.filters .dropdown {
+  height: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.filters .dropdown .title {
+  flex: 1;
+  border-bottom: 1px solid #E8E8EC;
+}
+
+.filters .dropdown .button {
+  border-bottom: 1px solid #0067BB;
+}

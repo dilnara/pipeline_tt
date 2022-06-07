@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 400;
+  color: #0C204D;
+}
+
+.container .title {
+  margin-top: 255px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 700;
+  color: #0C204D;
+}
+
+.container .subtitle {
+  font-weight: 700;
+}
+
+.containerleft {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerright {
+  width: 60%;
+  position: relative;
+}
+
+.containerright .description {
+  position: absolute;
+  top: 435px;
+  left: 220px;
+  display: flex;
+  flex-direction: row;
+}
+
+.containerright .description .headline {
+  width: 80px;
+  height: 1px;
+  background-color: #0067BB;
+  margin-top: 8px;
+  margin-right: 20px;
+}
